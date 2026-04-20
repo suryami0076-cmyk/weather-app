@@ -1,0 +1,9 @@
+com\clt\weather\data\api\Application.class
+com\clt\weather\data\api\GeoCodingResponseDTO.class
+com\clt\weather\data\api\WeatherService.class
+com\clt\weather\data\api\GeoCodingResponseDTO$Location.class
+com\clt\weather\data\api\WeatherApiResponseDTO.class
+WebConfig.class
+com\clt\weather\data\api\WeatherController.class
+com\clt\weather\data\api\WeatherResponseDTO.class
+com\clt\weather\data\api\WebClientConfig.class
