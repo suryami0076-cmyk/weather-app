@@ -8,21 +8,17 @@ import org.springframework.web.reactive.function.client.WebClient;
 public class WebClientConfig {
 
 	@Bean
-	public WebClient weatherWebclient(WebClient.Builder builder) 
+	public WebClient weatherWebclient() 
 	{
-		return builder.baseUrl("https://api.open-meteo.com").build();
+		return WebClient.builder().baseUrl("https://api.open-meteo.com").build();
 		
 	}
 	@Bean
-	public WebClient geoWebclient(WebClient.Builder builder) 
+	public WebClient geoWebclient() 
 	{
-		return builder.baseUrl("https://geocoding-api.open-meteo.com").build();
+		return WebClient.builder().baseUrl("https://geocoding-api.open-meteo.com").build();
 		
-	}
-	
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
 	}
 
 }
+
