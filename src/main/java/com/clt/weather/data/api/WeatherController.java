@@ -20,4 +20,9 @@ public class WeatherController {
 
         return weatherService.getWeather(location);
     }
+
+    @GetMapping("/")
+    public String home() {
+        return "Weather API is running successfully!";
+    }
 }
